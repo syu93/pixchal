@@ -1,0 +1,35 @@
+@import "compass";
+@import "compass/reset";
+
+$orange : #ff7f11;
+$gris   : #646464;
+
+@media screen and (max-width: 640px){
+
+    body{
+
+      font-family: 'Open Sans', sans-serif;
+      text-align: center;
+
+    }
+    .head {
+
+        width: 100%;
+        height: 150px;
+        background-color: #30b371;
+        top: 0;
+        position: absolute;
+        @include opacity(0.5);
+        
+        img{
+        
+            float: left;
+            position: relative;
+            
+        }
+        
+    }
+
+}
+
+
