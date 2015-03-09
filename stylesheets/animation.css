@@ -13,7 +13,7 @@
 	color: #27a19d;
 	display: block;
 }.icon-spin6::after{
-	content: "Loading...";
+	/*content: "Loading...";*/
 }
 /*app animation*/
 .body {

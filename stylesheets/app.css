@@ -63,7 +63,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 872px) {
   /* line 7, ../sass/app.scss */
   body {
     font-family: 'Open Sans', sans-serif;

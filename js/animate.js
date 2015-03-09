@@ -4,7 +4,8 @@ function index(){
 	$(".loading")
 		.toggle(true);
 	$(".loading").delay(2000).fadeToggle();
-	$(".body").addClass('animated bounceInLeft');
+	$(".head").addClass('animated bounceInLeft');
+	$(".content").addClass('animated bounceInLeft');
 }
 function defis(){
 	$(".loading")
@@ -37,7 +38,7 @@ function drawerPanel(){
 
 function bubble(){
 	$('.chal').click(function(e){
-		e.preventDefault();
+		// e.preventDefault();
 		$(this).removeClass('rubberBand animated').addClass('rubberBand animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
 			$(this).removeClass('rubberBand animated');
 		});
