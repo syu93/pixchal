@@ -67,12 +67,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /* line 7, ../sass/app.scss */
   body {
     font-family: 'Open Sans', sans-serif;
-<<<<<<< HEAD
     text-align: center;
     font-size: 22px;
-=======
-    /*text-align: center;*/
->>>>>>> ea718b5ffe2356b0aad94ac2d536d5ef4f4b6bb9
   }
 
   /* line 12, ../sass/app.scss */
@@ -83,7 +79,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     left:0;
     position: fixed;
   }
-<<<<<<< HEAD
   /* line 17, ../sass/app.scss */
   .head img {
     width: 100%;
@@ -157,14 +152,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .content .signup img {
     width: 80%;
     margin-top: 50px;
-=======
-  /* line 23, ../sass/app.scss */
-  .head .menu {
-/*    width: 15px;
-    float: left;
-    margin-left: 10px;
-    margin-top: 10px;*/
->>>>>>> ea718b5ffe2356b0aad94ac2d536d5ef4f4b6bb9
   }
 
 /*
