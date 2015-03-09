@@ -1,0 +1,32 @@
+/*app loading*/
+.loading{
+	display: block;
+	position: fixed;
+	top:100px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding-top: 30%;
+}
+.icon-spin6{
+	font-size: 3em;
+	color: #27a19d;
+	display: block;
+}.icon-spin6::after{
+	content: "Loading...";
+}
+/*app animation*/
+.body {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 2s;
+
+  -moz-animation-duration: 1s;
+  -moz-animation-delay: 2s;
+  /*-vendor-animation-iteration-count: infinite;*/
+}
+/*drawer panel*/
+.drawer-panel{
+  -webkit-animation-duration: 0.4s;
+
+  -moz-animation-duration: 0.4s;
+}

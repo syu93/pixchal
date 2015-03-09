@@ -15,28 +15,44 @@
 	<script type="text/javascript" src="js/animate.js"></script>
 	<script>
 		$(document).ready(function(){
-			index();
+			instruction();
 			drawerPanel();
 			bubble();
 		});
 	</script>
 </head>
 <body>
-    <div class="head">
-        <img src="img/header.jpg" alt="">
-    </div>
-    <div class="content">
-        <input type="text" placeholder="E-mail"/>
-        <input type="password" placeholder="Password"/>
-        <div class="boutons">
-				<a href="defis.html" class="btn btn-transparent">Sign in</a>
-			</div>
-            <div class="text">Mot de passe oublié ?</div>
-            <div class="signup"><img src="img/signup.png" alt=""></div>
-    </div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="js/app.js"></script>
-
+<div class="head-mini">
+	<div class="head-left">
+		<button type="button" class="btn menu"></button>
+	</div>
+	<span class="hlogo">
+	</span>
+	<div class="head-right">
+		<button type="button" class="btn settings"></button>
+	</div>
+</div>
+<div class="loading" style="display:none">
+	<i class="icon-spin6 animate-spin"></i>
+</div>
+<div class="drawer-panel" style="display:none">
+	<ul>
+		<li><a href="index.html">Accueil</a></li>
+		<li><a href="defis.html">Challenges</a></li>
+		<!-- <li><a href="instruction.html">Instruction</a></li> -->
+		<hr>
+		<li><a href="#">Mon Compte</a></li>
+	</ul>
+</div>
+<div class="body">
+	<div class="body-head">
+		<div class="backChal">
+			<span class="back-white">Challenge n°3</span><br>
+			<span class="back-black">Description du Challenge</span>	
+		</div>
+	</div>
+	<div class="body-text button">
+	</div>
+</div>
 </body>
 </html>
